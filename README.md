@@ -14,4 +14,4 @@ the correct output should be “What“. The constraints on the problem domain a
 not obvious: should “Which city“ also be considered a valid question phrase (QP), and so a
 member of the set of correct answers for above QAP?
   
-This project aims to solve this problem using multi-label text classification, where each labels is considered a question word (QW). An overall test accuracy of 94% was achieved when applying the model to the SQuAD dataset.
+This project tackles this problem using multi-label text classification, where each labels is considered a question word (QW). An overall test accuracy of 94% was achieved when applying the model to the SQuAD dataset.
