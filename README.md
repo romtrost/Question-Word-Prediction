@@ -7,8 +7,8 @@ A different but related problem is question word prediction (QWP), the problem o
 finding the question word missing from a given question and its corresponding answer. To
 illustrate, given the following question-answer pair (QAP):
 
-Question: <qw> is the capital of Sweden?
-Answer: Stockholm
+Question: "<qw> is the capital of Sweden?"
+Answer: "Stockholm"
   
 the correct output should be “What“. The constraints on the problem domain are in this sense
 not obvious: should “Which city“ also be considered a valid question phrase (QP), and so a
